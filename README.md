@@ -38,13 +38,11 @@ speech-enhancement-anc/
 git clone https://github.com/your-username/speech-enhancement-anc.git
 cd speech-enhancement-anc
 
-
 2. Set up the environment:
 
 python -m venv anc_env
 .\anc_env\Scripts\activate
 pip install -r requirements.txt
-
 
 3. Launch the notebook:
 jupyter notebook
@@ -76,9 +74,17 @@ You can replace the input file with any `.mp3`, `.wav`, or `.m4a` audio sample o
 - BLSTM in bottleneck layer
 - Transposed convolution decoder
 - Custom waveform-level L1 loss function
+1. Proposed System Architecture
+This diagram provides a high-level overview of the complete system design — from raw noisy input to cleaned output using the trained neural network model.
 ![image](https://github.com/user-attachments/assets/aeef0587-f533-49fc-be31-84dc3f736368)
+2. Model Architecture (Encoder-Decoder with LSTM)
+The model uses a Demucs-inspired encoder-decoder structure with LSTM layers in the bottleneck for sequence modeling and temporal context.
 ![image](https://github.com/user-attachments/assets/e225a2c9-2090-4020-bf25-b37dc4922333)
+3. Data Pipeline Flowchart
+This flowchart outlines the end-to-end data pipeline from dataset loading and preprocessing through inference and evaluation.
 ![image](https://github.com/user-attachments/assets/9645426a-dcf2-4265-bfbd-0efb5db1d1e7)
+4. Model Training Flowchart
+This diagram explains the model training process, including dataset preparation, model optimization, and checkpoint saving.
 ![image](https://github.com/user-attachments/assets/94c03cd6-02da-4d87-a044-c9384054af03)
 
 Supports streaming and real-time processing.
@@ -111,10 +117,8 @@ Ghanta, Pavankalyan
 
 **Pavankalyan Ghanta**  
 Email: gpavankalyan1102@gmail.com  
-LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-GitHub: [github.com/your-username](https://github.com/your-username)
-
-## For Recruiters & Reviewers
+LinkedIn: https://www.linkedin.com/in/pavankalyan-ghanta-b20115200/
+GitHub: https://github.com/ghantapavan93/Speech-Enhancement-Using-Deep-Learning-Techniques
 
 This project demonstrates:
 
