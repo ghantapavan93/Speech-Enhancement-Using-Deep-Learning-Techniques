@@ -16,7 +16,7 @@ Developed as part of a published research paper, this project is designed for de
 
 Published in IJFMR:  
 **“Speech Enhancement Using Deep Learning Techniques” – Pavankalyan Ghanta & Gowtham Bobbili**  
-[Read the paper](https://www.ijfmr.com/research-paper.php?id=2349)
+[Read the paper](https://www.ijfmr.com/research-paper.php?id=12384)
 
 ## Folder Structure
 
